@@ -15,11 +15,16 @@ public class ProjectOrigins implements DataSetData {
     /**
      * Origin project ID
      */
-    private Long originProjectId;
+    private String originProjectId;
+
+    /**
+     * Código de tipo de origen.
+     */
+    private String typeOriginCode;
     
     /**
-     * project description
+     * Descripción
      */
     private String description;
-    
+
 }
