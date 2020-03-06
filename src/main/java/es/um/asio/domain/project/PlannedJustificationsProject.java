@@ -11,7 +11,7 @@ import lombok.ToString;
 @Getter
 @Setter
 @ToString
-public class PlannedJustificationsProjects implements DataSetData {
+public class PlannedJustificationsProject implements DataSetData {
     /**
      * Project ID
      */
