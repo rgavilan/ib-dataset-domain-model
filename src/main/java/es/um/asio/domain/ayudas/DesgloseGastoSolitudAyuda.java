@@ -1,4 +1,4 @@
-package es.um.asio.domain.Ayudas;
+package es.um.asio.domain.ayudas;
 
 import es.um.asio.domain.DataSetDataBase;
 import lombok.Getter;
@@ -8,7 +8,7 @@ import lombok.ToString;
 @Getter
 @Setter
 @ToString
-public class DesgloseGastoRegistroAyudaDefinitiva extends DataSetDataBase {  
+public class DesgloseGastoSolitudAyuda extends DataSetDataBase {  
     private String idDocumento;
     private Long numero;
     private Long idTipoGastoAyuda;

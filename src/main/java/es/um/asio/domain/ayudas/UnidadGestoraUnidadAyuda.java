@@ -1,4 +1,4 @@
-package es.um.asio.domain.Ayudas;
+package es.um.asio.domain.ayudas;
 
 import es.um.asio.domain.DataSetDataBase;
 import lombok.Getter;
@@ -8,9 +8,8 @@ import lombok.ToString;
 @Getter
 @Setter
 @ToString
-public class FuenteUnidadAyuda extends DataSetDataBase {  
+public class UnidadGestoraUnidadAyuda extends DataSetDataBase {  
     private long idUnidadAyuda;
     private long numero;
-    private String codTipoFuente;
-    private String observaciones;
+    private String codUnidadAdm;
 }

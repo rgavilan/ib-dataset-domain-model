@@ -1,4 +1,4 @@
-package es.um.asio.domain.Ayudas;
+package es.um.asio.domain.ayudas;
 
 import es.um.asio.domain.DataSetDataBase;
 import lombok.Getter;
@@ -8,9 +8,10 @@ import lombok.ToString;
 @Getter
 @Setter
 @ToString
-public class RegistroAyudaDefinitiva extends DataSetDataBase {  
+public class RegistroAyudaProvisional extends DataSetDataBase {  
     private String idDocumento;
     private String idDocumentoSolicitud;
+    private String aprobacionSolicitudAyuda;
     private Long idConvocatoriaAyuda;
     private String descripcionConvocatoria;
     private String referenciaConvocatoria;
@@ -21,10 +22,9 @@ public class RegistroAyudaDefinitiva extends DataSetDataBase {
     private Long idTerceroConvocante;
     private String fechaConvocatoria;
     private Long idPersonaSolicitante;
-    private String fechaConcesion;
-    private String fechaInicioEjecucionProyecto;
-    private String fechaFinEjecucionProyecto;    
+    private String observaciones;
+    private String idGrupoGasto;
     private String codTipoMoneda;
     private Float importe;
-    private String referenciaConvocatoria_1;
+    private String referenciaConvocante;
 }
