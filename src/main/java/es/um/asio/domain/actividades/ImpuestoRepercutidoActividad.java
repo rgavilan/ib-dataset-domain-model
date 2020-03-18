@@ -1,4 +1,4 @@
-package es.um.asio.domain.Actividades;
+package es.um.asio.domain.actividades;
 
 import es.um.asio.domain.DataSetDataBase;
 import lombok.Getter;
