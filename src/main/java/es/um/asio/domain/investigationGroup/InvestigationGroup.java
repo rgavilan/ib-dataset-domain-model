@@ -1,6 +1,6 @@
 package es.um.asio.domain.investigationGroup;
 
-import es.um.asio.domain.DataSetData;
+import es.um.asio.domain.DataSetDataBase;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
@@ -11,7 +11,7 @@ import lombok.ToString;
 @Getter
 @Setter
 @ToString
-public class InvestigationGroup implements DataSetData {
+public class InvestigationGroup extends DataSetDataBase {
     /**
      * Investigation Group ID
      */

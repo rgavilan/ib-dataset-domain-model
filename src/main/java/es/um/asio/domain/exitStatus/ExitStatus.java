@@ -1,6 +1,6 @@
 package es.um.asio.domain.exitStatus;
 
-import es.um.asio.domain.DataSetData;
+import es.um.asio.domain.DataSetDataBase;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
@@ -17,7 +17,7 @@ import lombok.ToString;
 @AllArgsConstructor
 @Builder
 @NoArgsConstructor
-public class ExitStatus implements DataSetData {
+public class ExitStatus extends DataSetDataBase {
 
     private ExitStatusCodeEnum exitStatusCode;
 

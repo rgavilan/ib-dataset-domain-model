@@ -1,9 +1,9 @@
 package es.um.asio.domain.ImportResult;
 
-import es.um.asio.domain.DataSetData;
+import es.um.asio.domain.DataSetDataBase;
 import es.um.asio.domain.exitStatus.ExitStatus;
-import lombok.AllArgsConstructor;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 /**
@@ -11,12 +11,14 @@ import lombok.Setter;
  */
 @Getter
 @Setter
-@AllArgsConstructor
-public class ImportResult implements DataSetData {    
-    /**
-     * Número de versión de la importación
-     */
-    private Integer version;
+@NoArgsConstructor
+public class ImportResult extends DataSetDataBase {    
+    
+    public ImportResult(ExitStatus exitStatus) {
+        this.exitStatus = exitStatus;
+        this.setVersion(exitStatus.getVersion());
+        this.date = System.currentTimeMillis();
+    }
     
     /**
      * Fecha de realización 
