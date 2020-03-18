@@ -1,4 +1,4 @@
-package es.um.asio.domain.ImportResult;
+package es.um.asio.domain.importResult;
 
 import es.um.asio.domain.DataSetDataBase;
 import es.um.asio.domain.exitStatus.ExitStatus;
