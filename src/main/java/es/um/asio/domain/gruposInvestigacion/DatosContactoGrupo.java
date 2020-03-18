@@ -1,4 +1,4 @@
-package es.um.asio.domain.investigationCenter;
+package es.um.asio.domain.gruposInvestigacion;
 
 import es.um.asio.domain.DataSetDataBase;
 import lombok.Getter;
