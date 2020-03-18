@@ -11,24 +11,24 @@ import lombok.ToString;
 @Getter
 @Setter
 @ToString
-public class GroupContactData extends DataSetDataBase {
+public class DatosContactoGrupo extends DataSetDataBase {
     /**
      * Investigation Group ID
      */
-    private String investigationGroupId;
+    private String idGrupoInvestigacion;
 
     /**
      * número
      */
-    private Long number;
+    private Long numero;
 
     /**
      * código del tipo de forma de contacto
      */
-    private String wayTypeContactCode;
+    private String codTipoFormaContacto;
 
     /**
      * valor
      */
-    private String value;
+    private String valor;
 }

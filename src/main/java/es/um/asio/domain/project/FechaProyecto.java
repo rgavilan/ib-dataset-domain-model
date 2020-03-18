@@ -11,39 +11,39 @@ import lombok.ToString;
 @Getter
 @Setter
 @ToString
-public class DateProjects extends DataSetDataBase {
+public class FechaProyecto extends DataSetDataBase {
     /**
      * Project ID
      */
-    private Long projectId;
+    private Long idProyecto;
     
     /**
      * Número
      */
-    private Long number;
+    private Long numero;
     
     /**
      * Fecha de inicio de expediente
      */
-    private String recordStartDate;
+    private String fechaInicioExpediente;
 
     /**
      * Fecha de inicio de proyecto
      */
-    private String projectStartDate;
+    private String fechaInicioProyecto;
 
     /**
      * Fecha de fin de proyecto
      */
-    private String projectEndDate;
+    private String fechaFinProyecto;
 
     /**
      * Código del tipo de motivo del cambio de fecha
      */
-    private String dateChangeReasonTypeCode;
+    private String codTipoMotivoCambioFecha;
     
     /**
      * Motivo del cambio de fecha
      */
-    private String dateChangeReason;
+    private String motivoCambioFecha;
 }

@@ -11,24 +11,24 @@ import lombok.ToString;
 @Getter
 @Setter
 @ToString
-public class Project extends DataSetDataBase {
+public class Proyecto extends DataSetDataBase {
     /**
      * Project ID
      */
-    private Long projectId;
+    private Long idProyecto;
     
     /**
      * project name
      */
-    private String name;
+    private String nombre;
     
     /**
      * Finalist project
      */
-    private String finalistProject;
+    private String proyectoFinalista;
     
     /**
      * Limitative
      */
-    private String limitative;
+    private String limitativo;
 }

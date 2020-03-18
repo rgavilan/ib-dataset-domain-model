@@ -11,70 +11,70 @@ import lombok.ToString;
 @Getter
 @Setter
 @ToString
-public class PlannedJustificationsProject  extends DataSetDataBase {
+public class JustificacionPrevistaProyecto  extends DataSetDataBase {
     /**
      * Project ID
      */
-    private Long projectId;
+    private Long idProyecto;
     
     /**
      * Origin project ID
      */
-    private String originProjectId;
+    private String idOrigenProyecto;
     
     /**
      * El número de justificación prevista.
      */
-    private Long expectedJustificationNumber;
+    private Long numeroJustificacionPrevista;
 
     /**
      * Código de tipo de origen.
      */
-    private String typeOriginCode;
+    private String codTipoOrigen;
 
     /**
      * El tipo de justificación
      */
-    private String justificationType;
+    private String tipoJustificacion;
 
     /**
      * La clase de justificación
      */
-    private String justificationClass;
+    private String claseJustificacion;
 
     /**
      * La fecha de inicio de devengo
      */
-    private String startDateIncome;
+    private String fechaInicioDevengo;
 
     /**
      * La fecha de fin de devengo
      */
-    private String endDateIncome;
+    private String fechaFinDevengo;
 
     /**
      * La fecha de inicio de contabilización
      */
-    private String startDateAccounting;
+    private String fechaInicioContabilizacion;
 
     /**
      * La fecha de inicio de pago
      */
-    private String startDatePayment;
+    private String fechaInicioPago;
     
     /**
      * La fecha de fin de pago
      */
-    private String endDatePayment;
+    private String fechaFinPago;
 
     /**
      * La fecha prevista
      */
-    private String expectedDate;
+    private String fechaPrevista;
 
     /**
      * Observaciones
      */
-    private String remarks;
+    private String observaciones;
 
 }

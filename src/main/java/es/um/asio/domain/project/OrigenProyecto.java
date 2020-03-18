@@ -11,20 +11,20 @@ import lombok.ToString;
 @Getter
 @Setter
 @ToString
-public class ProjectOrigins extends DataSetDataBase {
+public class OrigenProyecto extends DataSetDataBase {
     /**
      * Origin project ID
      */
-    private String originProjectId;
+    private String idOrigenProyecto;
 
     /**
      * Código de tipo de origen.
      */
-    private String typeOriginCode;
+    private String codTipoOrigen;
     
     /**
      * Descripción
      */
-    private String description;
+    private String descripcion;
 
 }
