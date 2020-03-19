@@ -1,4 +1,4 @@
-package es.um.asio.domain.project;
+package es.um.asio.domain.proyectos;
 
 import es.um.asio.domain.DataSetDataBase;
 import lombok.Getter;
