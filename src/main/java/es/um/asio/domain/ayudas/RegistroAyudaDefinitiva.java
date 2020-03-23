@@ -21,6 +21,7 @@ public class RegistroAyudaDefinitiva extends DataSetDataBase {
     private Long idTerceroConvocante;
     private String fechaConvocatoria;
     private Long idPersonaSolicitante;
+    private String observaciones;
     private String fechaConcesion;
     private String fechaInicioEjecucionProyecto;
     private String fechaFinEjecucionProyecto;    
