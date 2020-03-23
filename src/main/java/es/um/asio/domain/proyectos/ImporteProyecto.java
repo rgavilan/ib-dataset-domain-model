@@ -8,7 +8,7 @@ import lombok.ToString;
 @Getter
 @Setter
 @ToString
-public class ImporteGastoProyecto extends DataSetDataBase {  
+public class ImporteProyecto extends DataSetDataBase {  
     private long idProyecto;
     private long numero;
     private String codTipoMoneda;

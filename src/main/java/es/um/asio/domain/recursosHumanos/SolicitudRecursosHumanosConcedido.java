@@ -8,7 +8,7 @@ import lombok.ToString;
 @Getter
 @Setter
 @ToString
-public class SolicitudRecursoHumanoConcedido extends DataSetDataBase {  
+public class SolicitudRecursosHumanosConcedido extends DataSetDataBase {  
     private String idDocumento;
     private String idDocumentoSolicitud;
     private Long idPersonaSolicitante;
