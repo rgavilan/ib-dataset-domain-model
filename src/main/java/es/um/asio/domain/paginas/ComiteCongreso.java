@@ -6,7 +6,7 @@ import lombok.Setter;
 import lombok.ToString;
 
 /**
- * The Class ComiteCongreso.
+ * Class that represents the mapping of the file "Comite congresos.xml"
  */
 @Getter
 @Setter

@@ -6,7 +6,7 @@ import lombok.Setter;
 import lombok.ToString;
 
 /**
- * The Class TipoRechazoJustificacion.
+ * Class that represents the mapping of the file "Tipos rechazos justificacion.xml"
  */
 @Getter
 @Setter

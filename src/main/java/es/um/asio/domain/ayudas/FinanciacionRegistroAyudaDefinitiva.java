@@ -6,7 +6,7 @@ import lombok.Setter;
 import lombok.ToString;
 
 /**
- * The Class FinanciacionRegistroAyudaDefinitiva.
+ * Class that represents the mapping of the file "Financiacion registros ayudas definitivas.xml"
  */
 @Getter
 @Setter

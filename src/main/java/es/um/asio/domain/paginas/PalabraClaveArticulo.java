@@ -6,7 +6,7 @@ import lombok.Setter;
 import lombok.ToString;
 
 /**
- * The Class PalabraClaveArticulo.
+ * Class that represents the mapping of the file "Palabras clave articulos.xml"
  */
 @Getter
 @Setter

@@ -6,7 +6,7 @@ import lombok.Setter;
 import lombok.ToString;
 
 /**
- * The Class SolicitudCambioGrupoInvestigacion.
+ * Class that represents the mapping of the file "Solicitudes cambios grupos investigacion.xml"
  */
 @Getter
 @Setter

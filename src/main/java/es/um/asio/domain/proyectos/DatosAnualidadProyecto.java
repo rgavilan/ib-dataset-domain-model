@@ -6,7 +6,7 @@ import lombok.Setter;
 import lombok.ToString;
 
 /**
- * The Class DatosAnualidadProyecto.
+ * Class that represents the mapping of the file "Datos anualidades proyectos.xml"
  */
 @Getter
 @Setter

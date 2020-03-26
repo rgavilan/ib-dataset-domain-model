@@ -6,7 +6,7 @@ import lombok.Setter;
 import lombok.ToString;
 
 /**
- * The Class TipoMotivoCambioFecha.
+ * Class that represents the mapping of the file "Tipos motivos cambios fechas.xml"
  */
 @Getter
 @Setter

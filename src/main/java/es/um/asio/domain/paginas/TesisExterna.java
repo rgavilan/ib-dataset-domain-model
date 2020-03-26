@@ -6,7 +6,7 @@ import lombok.Setter;
 import lombok.ToString;
 
 /**
- * The Class TesisExterna.
+ * Class that represents the mapping of the file "Tesis externas.xml"
  */
 @Getter
 @Setter

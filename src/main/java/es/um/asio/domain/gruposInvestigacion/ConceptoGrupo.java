@@ -6,7 +6,7 @@ import lombok.Setter;
 import lombok.ToString;
 
 /**
- * The Class ConceptoGrupo.
+ * Class that represents the mapping of the file "Conceptos grupos.xml"
  */
 @Getter
 @Setter

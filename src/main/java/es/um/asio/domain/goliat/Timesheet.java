@@ -6,7 +6,7 @@ import lombok.Setter;
 import lombok.ToString;
 
 /**
- * The Class Timesheet.
+ * Class that represents the mapping of the file "Timesheets.xml"
  */
 @Getter
 @Setter

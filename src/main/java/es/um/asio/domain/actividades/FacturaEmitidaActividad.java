@@ -6,13 +6,13 @@ import lombok.Setter;
 import lombok.ToString;
 
 /**
- * The Class FacturaEmitidaActividad.
+ * Class that represents the mapping of the file "Facturas emitidas actividades.xml"
  */
 @Getter
 @Setter
 @ToString
 public class FacturaEmitidaActividad extends DataSetDataBase {  
-    
+
     /**
      * Mapping of field IDACTIVIDAD.
      */

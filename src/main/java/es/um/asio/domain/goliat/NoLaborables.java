@@ -6,7 +6,7 @@ import lombok.Setter;
 import lombok.ToString;
 
 /**
- * The Class NoLaborables.
+ * Class that represents the mapping of the file "No laborables.xml"
  */
 @Getter
 @Setter

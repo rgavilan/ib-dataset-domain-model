@@ -6,7 +6,7 @@ import lombok.Setter;
 import lombok.ToString;
 
 /**
- * The Class TipoGastoGenerico.
+ * Class that represents the mapping of the file "Tipos gastos genericos.xml"
  */
 @Getter
 @Setter

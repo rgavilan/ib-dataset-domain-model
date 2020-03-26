@@ -6,7 +6,7 @@ import lombok.Setter;
 import lombok.ToString;
 
 /**
- * The Class SubprogramaAyuda.
+ * Class that represents the mapping of the file "Subprogramas ayudas.xml"
  */
 @Getter
 @Setter

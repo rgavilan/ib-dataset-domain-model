@@ -6,7 +6,7 @@ import lombok.Setter;
 import lombok.ToString;
 
 /**
- * The Class AutorExposicion.
+ * Class that represents the mapping of the file "Autores exposicion.xml"
  */
 @Getter
 @Setter

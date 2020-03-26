@@ -6,7 +6,7 @@ import lombok.Setter;
 import lombok.ToString;
 
 /**
- * The Class SolicitudRecursosHumanos.
+ * Class that represents the mapping of the file "Solicitudes recursos humanos.xml"
  */
 @Getter
 @Setter

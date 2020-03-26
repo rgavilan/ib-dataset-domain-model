@@ -6,7 +6,7 @@ import lombok.Setter;
 import lombok.ToString;
 
 /**
- * The Class TipoAyuda.
+ * Class that represents the mapping of the file "Tipos ayudas.xml"
  */
 @Getter
 @Setter

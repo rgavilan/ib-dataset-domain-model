@@ -6,7 +6,7 @@ import lombok.Setter;
 import lombok.ToString;
 
 /**
- * The Class ProrrogaContratoProyecto.
+ * Class that represents the mapping of the file "Prorrogas contratos proyectos.xml"
  */
 @Getter
 @Setter

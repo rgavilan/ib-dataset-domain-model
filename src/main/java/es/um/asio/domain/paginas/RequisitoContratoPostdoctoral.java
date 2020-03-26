@@ -6,7 +6,7 @@ import lombok.Setter;
 import lombok.ToString;
 
 /**
- * The Class RequisitoContratoPostdoctoral.
+ * Class that represents the mapping of the file "Requisitos contratos postdoctorales.xml"
  */
 @Getter
 @Setter

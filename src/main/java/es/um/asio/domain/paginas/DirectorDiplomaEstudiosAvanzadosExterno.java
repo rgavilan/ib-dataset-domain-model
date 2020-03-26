@@ -6,7 +6,7 @@ import lombok.Setter;
 import lombok.ToString;
 
 /**
- * The Class DirectorDiplomaEstudiosAvanzadosExterno.
+ * Class that represents the mapping of the file "Directores diploma estudios avanzados externo.xml"
  */
 @Getter
 @Setter

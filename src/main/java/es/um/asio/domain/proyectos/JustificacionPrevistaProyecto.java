@@ -6,7 +6,7 @@ import lombok.Setter;
 import lombok.ToString;
 
 /**
- * The Class JustificacionPrevistaProyecto.
+ * Class that represents the mapping of the file "Justificaciones previstas proyectos.xml"
  */
 @Getter
 @Setter

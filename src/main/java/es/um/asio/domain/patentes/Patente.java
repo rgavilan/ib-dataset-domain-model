@@ -6,7 +6,7 @@ import lombok.Setter;
 import lombok.ToString;
 
 /**
- * The Class Patente.
+ * Class that represents the mapping of the file "Patentes.xml"
  */
 @Getter
 @Setter

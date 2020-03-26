@@ -6,7 +6,7 @@ import lombok.Setter;
 import lombok.ToString;
 
 /**
- * The Class Persona.
+ * Class that represents the mapping of the file "Personas.xml"
  */
 @Getter
 @Setter

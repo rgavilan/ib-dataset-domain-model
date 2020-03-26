@@ -6,7 +6,7 @@ import lombok.Setter;
 import lombok.ToString;
 
 /**
- * The Class ImpuestoRepercutidoProyecto.
+ * Class that represents the mapping of the file "Impuestos repercutidos proyectos.xml"
  */
 @Getter
 @Setter

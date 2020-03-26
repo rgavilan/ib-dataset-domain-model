@@ -6,7 +6,7 @@ import lombok.Setter;
 import lombok.ToString;
 
 /**
- * The Class DependenciaProyecto.
+ * Class that represents the mapping of the file "Dependencias proyectos.xml"
  */
 @Getter
 @Setter

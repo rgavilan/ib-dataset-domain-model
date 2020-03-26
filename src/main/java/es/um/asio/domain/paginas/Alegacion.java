@@ -6,7 +6,7 @@ import lombok.Setter;
 import lombok.ToString;
 
 /**
- * The Class Alegacion.
+ * Class that represents the mapping of the file "Alegaciones.xml"
  */
 @Getter
 @Setter

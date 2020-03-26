@@ -6,7 +6,7 @@ import lombok.Setter;
 import lombok.ToString;
 
 /**
- * The Class ReferenciaUnescoSolicitudAyuda.
+ * Class that represents the mapping of the file "Referencias unesco solicitudes ayuda.xml"
  */
 @Getter
 @Setter

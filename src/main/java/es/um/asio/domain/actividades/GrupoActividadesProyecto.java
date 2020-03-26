@@ -6,7 +6,7 @@ import lombok.Setter;
 import lombok.ToString;
 
 /**
- * The Class GrupoActividadesProyecto.
+ * Class that represents the mapping of the file "Grupos actividades proyectos.xml"
  */
 @Getter
 @Setter

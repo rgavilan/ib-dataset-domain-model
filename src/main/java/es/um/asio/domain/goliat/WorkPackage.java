@@ -6,7 +6,7 @@ import lombok.Setter;
 import lombok.ToString;
 
 /**
- * The Class WorkPackage.
+ * Class that represents the mapping of the file "Work packages.xml"
  */
 @Getter
 @Setter

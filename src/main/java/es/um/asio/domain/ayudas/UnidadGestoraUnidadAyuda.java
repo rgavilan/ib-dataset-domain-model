@@ -6,7 +6,7 @@ import lombok.Setter;
 import lombok.ToString;
 
 /**
- * The Class UnidadGestoraUnidadAyuda.
+ * Class that represents the mapping of the file "Unidades gestoras unidades ayudas.xml"
  */
 @Getter
 @Setter

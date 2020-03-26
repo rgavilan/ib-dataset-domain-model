@@ -6,7 +6,7 @@ import lombok.Setter;
 import lombok.ToString;
 
 /**
- * The Class PartidaConvocatoria.
+ * Class that represents the mapping of the file "Partidas convocatorias.xml"
  */
 @Getter
 @Setter
