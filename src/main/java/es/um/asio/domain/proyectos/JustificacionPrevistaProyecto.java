@@ -6,74 +6,75 @@ import lombok.Setter;
 import lombok.ToString;
 
 /**
- * Planned Justifications Projects data set POJO
+ * The Class JustificacionPrevistaProyecto.
  */
 @Getter
 @Setter
 @ToString
 public class JustificacionPrevistaProyecto  extends DataSetDataBase {
+    
     /**
-     * Project ID
+     * Mapping of field IDPROYECTO.
      */
     private Long idProyecto;
     
     /**
-     * Origin project ID
+     * Mapping of field IDORIGENPROYECTO.
      */
     private String idOrigenProyecto;
     
     /**
-     * El número de justificación prevista.
+     * Mapping of field NUMEROJUSTIFICACIONPREVISTA.
      */
     private Long numeroJustificacionPrevista;
 
     /**
-     * Código de tipo de origen.
+     * Mapping of field CODTIPOORIGEN.
      */
     private String codTipoOrigen;
 
     /**
-     * El tipo de justificación
+     * Mapping of field TIPOJUSTIFICACION.
      */
     private String tipoJustificacion;
 
     /**
-     * La clase de justificación
+     * Mapping of field CLASEJUSTIFICACION.
      */
     private String claseJustificacion;
 
     /**
-     * La fecha de inicio de devengo
+     * Mapping of field FECHAINICIODEVENGO.
      */
     private String fechaInicioDevengo;
 
     /**
-     * La fecha de fin de devengo
+     * Mapping of field FECHAFINDEVENGO.
      */
     private String fechaFinDevengo;
 
     /**
-     * La fecha de inicio de contabilización
+     * Mapping of field FECHAINICIOCONTABILIZACION.
      */
     private String fechaInicioContabilizacion;
 
     /**
-     * La fecha de inicio de pago
+     * Mapping of field FECHAINICIOPAGO.
      */
     private String fechaInicioPago;
     
     /**
-     * La fecha de fin de pago
+     * Mapping of field FECHAFINPAGO.
      */
     private String fechaFinPago;
 
     /**
-     * La fecha prevista
+     * Mapping of field FECHAPREVISTA.
      */
     private String fechaPrevista;
 
     /**
-     * Observaciones
+     * Mapping of field OBSERVACIONES.
      */
     private String observaciones;
 

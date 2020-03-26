@@ -5,11 +5,26 @@ import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
 
+/**
+ * The Class TipoFuenteFinanciacion.
+ */
 @Getter
 @Setter
 @ToString
 public class TipoFuenteFinanciacion extends DataSetDataBase {  
+    
+    /**
+     * Mapping of field CODTIPOFUENTE.
+     */
     private String codTipoFuente;
+    
+    /**
+     * Mapping of field DESCRIPCION.
+     */
     private String descripcion;
+    
+    /**
+     * Mapping of field FONDOESTRUCTURAL.
+     */
     private String fondoEstructural;
 }

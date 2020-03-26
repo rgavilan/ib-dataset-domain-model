@@ -6,44 +6,45 @@ import lombok.Setter;
 import lombok.ToString;
 
 /**
- * Project data set POJO
+ * The Class FechaProyecto.
  */
 @Getter
 @Setter
 @ToString
 public class FechaProyecto extends DataSetDataBase {
+    
     /**
-     * Project ID
+     * Mapping of field IDPROYECTO.
      */
     private Long idProyecto;
     
     /**
-     * Número
+     * Mapping of field NUMERO.
      */
     private Long numero;
     
     /**
-     * Fecha de inicio de expediente
+     * Mapping of field FECHAINICIOEXPEDIENTE.
      */
     private String fechaInicioExpediente;
 
     /**
-     * Fecha de inicio de proyecto
+     * Mapping of field FECHAINICIOPROYECTO.
      */
     private String fechaInicioProyecto;
 
     /**
-     * Fecha de fin de proyecto
+     * Mapping of field FECHAFINPROYECTO.
      */
     private String fechaFinProyecto;
 
     /**
-     * Código del tipo de motivo del cambio de fecha
+     * Mapping of field CODTIPOMOTIVOCAMBIOFECHA.
      */
     private String codTipoMotivoCambioFecha;
     
     /**
-     * Motivo del cambio de fecha
+     * Mapping of field MOTIVOCAMBIOFECHA.
      */
     private String motivoCambioFecha;
 }

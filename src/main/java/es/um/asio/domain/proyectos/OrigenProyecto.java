@@ -6,24 +6,25 @@ import lombok.Setter;
 import lombok.ToString;
 
 /**
- * Project data set POJO
+ * The Class OrigenProyecto.
  */
 @Getter
 @Setter
 @ToString
 public class OrigenProyecto extends DataSetDataBase {
+    
     /**
-     * Origin project ID
+     * Mapping of field IDORIGENPROYECTO.
      */
     private String idOrigenProyecto;
 
     /**
-     * Código de tipo de origen.
+     * Mapping of field CODTIPOORIGEN.
      */
     private String codTipoOrigen;
     
     /**
-     * Descripción
+     * Mapping of field DESCRIPCION.
      */
     private String descripcion;
 
