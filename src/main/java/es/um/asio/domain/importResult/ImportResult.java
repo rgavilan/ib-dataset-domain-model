@@ -7,13 +7,18 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 /**
- * Import Result data set POJO
+ * The Class ImportResult.
  */
 @Getter
 @Setter
 @NoArgsConstructor
 public class ImportResult extends DataSetDataBase {    
     
+    /**
+     * Instantiates a new {@link ImportResult}.
+     *
+     * @param exitStatus the exit status
+     */
     public ImportResult(ExitStatus exitStatus) {
         this.exitStatus = exitStatus;
         this.setVersion(exitStatus.getVersion());
@@ -21,12 +26,12 @@ public class ImportResult extends DataSetDataBase {
     }
     
     /**
-     * Fecha de realización 
+     * The date of result.
      */
     private Long date;
     
     /**
-     * Resultado de la importación
+     * The exit status.
      */
     private ExitStatus exitStatus;
 }
