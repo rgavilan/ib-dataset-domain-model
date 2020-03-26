@@ -1,6 +1,10 @@
 package es.um.asio.domain.gruposInvestigacion;
 
+import javax.persistence.Entity;
+
 import es.um.asio.domain.DataSetDataBase;
+import es.um.asio.domain.proyectos.Proyecto;
+import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
@@ -8,9 +12,11 @@ import lombok.ToString;
 /**
  * Class that represents the mapping of the file "Grupos de investigacion.xml"
  */
+@Entity
 @Getter
 @Setter
-@ToString
+@ToString(includeFieldNames = true)
+@EqualsAndHashCode(callSuper = true)
 public class GrupoInvestigacion extends DataSetDataBase {
     
     /**

@@ -26,6 +26,11 @@
 
 	<dependencies>
 		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-core</artifactId>
+		</dependency>
+		
+		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
 			<artifactId>jackson-annotations</artifactId>
 		</dependency>
@@ -36,11 +41,11 @@
 			<scope>provided</scope>
 		</dependency>
 	</dependencies>
-	
+
 	<profiles>
 		<profile>
 			<id>snapshot</id>
-			
+
 			<build>
 				<plugins>
 					<plugin>
@@ -67,10 +72,10 @@
 				</plugins>
 			</build>
 		</profile>
-		
+
 		<profile>
 			<id>release</id>
-			
+
 			<build>
 				<plugins>
 					<plugin>
@@ -85,9 +90,9 @@
 								<configuration>
 									<rules>
 										<requireReleaseVersion>
-						                  	<message>No Snapshots Allowed!</message>
-						                  	<failWhenParentIsSnapshot>true</failWhenParentIsSnapshot>
-						                </requireReleaseVersion>
+											<message>No Snapshots Allowed!</message>
+											<failWhenParentIsSnapshot>true</failWhenParentIsSnapshot>
+										</requireReleaseVersion>
 									</rules>
 									<fail>true</fail>
 								</configuration>
