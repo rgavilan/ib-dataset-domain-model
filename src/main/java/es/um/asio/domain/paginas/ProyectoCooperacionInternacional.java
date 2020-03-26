@@ -5,14 +5,41 @@ import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
 
+/**
+ * The Class ProyectoCooperacionInternacional.
+ */
 @Getter
 @Setter
 @ToString
 public class ProyectoCooperacionInternacional extends DataSetDataBase {  
+    
+    /**
+     * Mapping of field PROYECTO.
+     */
     private long proyecto;
+    
+    /**
+     * Mapping of field IDENTIFICADOR.
+     */
     private String identificador;
+    
+    /**
+     * Mapping of field TITULO.
+     */
     private String titulo;
+    
+    /**
+     * Mapping of field FECINICIO.
+     */
     private String fecInicio;
+    
+    /**
+     * Mapping of field FECFIN.
+     */
     private String fecFin;
+    
+    /**
+     * Mapping of field PCIN_PORCENTAJE.
+     */
     private Long pcInPorcentaje;
 }

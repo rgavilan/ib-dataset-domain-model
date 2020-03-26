@@ -5,11 +5,26 @@ import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
 
+/**
+ * The Class DirectorDiplomaEstudiosAvanzados.
+ */
 @Getter
 @Setter
 @ToString
 public class DirectorDiplomaEstudiosAvanzados extends DataSetDataBase {  
+    
+    /**
+     * Mapping of field DTNA_TINA_CODIGO.
+     */
     private long dtnaTinaCodigo;
+    
+    /**
+     * Mapping of field IDPERSONA.
+     */
     private long idPersona;
+    
+    /**
+     * Mapping of field DTNA_ORDEN.
+     */
     private long dtnaOrden;
 }

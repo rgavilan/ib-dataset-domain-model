@@ -5,10 +5,21 @@ import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
 
+/**
+ * The Class PalabraClavePrologoLibro.
+ */
 @Getter
 @Setter
 @ToString
 public class PalabraClavePrologoLibro extends DataSetDataBase {  
+    
+    /**
+     * Mapping of field PC_LIBR_ISBN.
+     */
     private String pcLibrIsbn;
+    
+    /**
+     * Mapping of field PC_PALABRA.
+     */
     private String pcPalabra;
 }
