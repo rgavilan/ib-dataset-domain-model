@@ -9,7 +9,7 @@ import lombok.Setter;
 import lombok.ToString;
 
 /**
- * Project data set POJO
+ * The Class ExitStatus.
  */
 @Getter
 @Setter
@@ -19,6 +19,9 @@ import lombok.ToString;
 @NoArgsConstructor
 public class ExitStatus extends DataSetDataBase {
 
+    /**
+     * The code of exit status.
+     */
     private ExitStatusCodeEnum exitStatusCode;
 
 }

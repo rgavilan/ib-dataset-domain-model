@@ -1,7 +1,38 @@
 package es.um.asio.domain.exitStatus;
 
+/**
+ * The Enum that represents the Exit Status
+ */
 public enum ExitStatusCodeEnum {
 
-    UNKNOWN, EXECUTING, COMPLETED, NOOP, FAILED, STOPPED;
+    /**
+     * Unknown code.
+     */
+    UNKNOWN, 
+    
+    /**
+     * Executing code.
+     */
+    EXECUTING, 
+    
+    /**
+     * Completed code.
+     */
+    COMPLETED, 
+    
+    /**
+     * Noop code.
+     */
+    NOOP, 
+    
+    /**
+     * Failed code.
+     */
+    FAILED, 
+    
+    /**
+     * Stopped code.
+     */
+    STOPPED;
 
 }
