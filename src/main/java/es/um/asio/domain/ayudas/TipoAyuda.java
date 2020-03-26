@@ -5,10 +5,21 @@ import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
 
+/**
+ * The Class TipoAyuda.
+ */
 @Getter
 @Setter
 @ToString
 public class TipoAyuda extends DataSetDataBase {  
+    
+    /**
+     * Mapping of field CODTIPOAYUDA.
+     */
     private String codTipoAyuda;
+    
+    /**
+     * Mapping of field DESCRIPCION.
+     */
     private String descripcion;
 }

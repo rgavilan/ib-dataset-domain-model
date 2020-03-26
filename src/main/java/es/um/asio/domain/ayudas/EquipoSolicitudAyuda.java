@@ -5,11 +5,26 @@ import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
 
+/**
+ * The Class EquipoSolicitudAyuda.
+ */
 @Getter
 @Setter
 @ToString
 public class EquipoSolicitudAyuda extends DataSetDataBase {  
+    
+    /**
+     * Mapping of field IDDOCUMENTO.
+     */
     private String idDocumento;
+    
+    /**
+     * Mapping of field IDPERSONA.
+     */
     private Long idPersona;
+    
+    /**
+     * Mapping of field CODIGOTIPOPARTICIPACION.
+     */
     private String codigoTipoParticipacion;
 }

@@ -5,12 +5,31 @@ import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
 
+/**
+ * The Class FuenteUnidadAyuda.
+ */
 @Getter
 @Setter
 @ToString
 public class FuenteUnidadAyuda extends DataSetDataBase {  
+    
+    /**
+     * Mapping of field IDUNIDADAYUDA.
+     */
     private long idUnidadAyuda;
+    
+    /**
+     * Mapping of field NUMERO.
+     */
     private long numero;
+    
+    /**
+     * Mapping of field CODTIPOFUENTE.
+     */
     private String codTipoFuente;
+    
+    /**
+     * Mapping of field OBSERVACIONES.
+     */
     private String observaciones;
 }
