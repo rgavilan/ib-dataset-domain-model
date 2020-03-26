@@ -12,9 +12,9 @@
 
 	<groupId>es.um.asio</groupId>
 	<artifactId>dataset-domain-model</artifactId>
-	<version>1.0-SNAPSHOT</version>
-	<name>Archetype - Java Batch</name>
-	<description>Archetype - Java Batch</description>
+	<version>1.0-SEMANTMURC-16-SNAPSHOT</version>
+	<name>UM - ASIO - dataset-domain-model</name>
+	<description>UM - ASIO - dataset-domain-model</description>
 
 	<scm>
 		<url>https://git.izertis.com/universidaddemurcia/semantmurc/dataset-domain-model</url>
