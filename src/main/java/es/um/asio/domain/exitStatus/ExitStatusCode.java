@@ -3,7 +3,7 @@ package es.um.asio.domain.exitStatus;
 /**
  * The Enum that represents the Exit Status
  */
-public enum ExitStatusCodeEnum {
+public enum ExitStatusCode {
 
     /**
      * Unknown code.

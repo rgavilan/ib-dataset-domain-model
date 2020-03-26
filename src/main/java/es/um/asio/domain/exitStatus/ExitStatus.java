@@ -22,6 +22,6 @@ public class ExitStatus extends DataSetDataBase {
     /**
      * The code of exit status.
      */
-    private ExitStatusCodeEnum exitStatusCode;
+    private ExitStatusCode code;
 
 }
