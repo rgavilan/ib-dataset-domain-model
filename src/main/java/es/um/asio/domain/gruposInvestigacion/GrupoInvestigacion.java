@@ -6,39 +6,40 @@ import lombok.Setter;
 import lombok.ToString;
 
 /**
- * Investigation Group data set POJO
+ * The Class GrupoInvestigacion.
  */
 @Getter
 @Setter
 @ToString
 public class GrupoInvestigacion extends DataSetDataBase {
+    
     /**
-     * Investigation Group ID
+     * Mapping of field IDGRUPOINVESTIGACION.
      */
     private String idGrupoInvestigacion;
 
     /**
-     * Description
+     * Mapping of field DESCRIPCION.
      */
     private String descripcion;
 
     /**
-     * Administration unit Code
+     * Mapping of field CODUNIDADADM.
      */
     private String codUnidadAdm;
 
     /**
-     * Excelencia
+     * Mapping of field EXCELENCIA.
      */
     private String excelencia;
 
     /**
-     * Fecha creación
+     * Mapping of field FECHACREACION.
      */
     private String fechaCreacion;
 
     /**
-     * Fecha de desaparición
+     * Mapping of field FECHADESAPARICION.
      */
     private String fechaDesaparicion;
 }
