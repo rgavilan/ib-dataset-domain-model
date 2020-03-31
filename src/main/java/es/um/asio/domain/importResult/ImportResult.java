@@ -1,8 +1,10 @@
 package es.um.asio.domain.importResult;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Entity;
 import javax.persistence.EnumType;
 import javax.persistence.Enumerated;
+import javax.persistence.OneToOne;
 
 import es.um.asio.domain.DataSetDataBase;
 import es.um.asio.domain.exitStatus.ExitStatus;
@@ -42,5 +44,6 @@ public class ImportResult extends DataSetDataBase {
     /**
      * The exit status.
      */
+    @OneToOne(cascade = CascadeType.ALL)
     private ExitStatus exitStatus;
 }
