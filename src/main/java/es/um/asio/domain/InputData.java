@@ -15,8 +15,10 @@ import lombok.ToString;
 @NoArgsConstructor
 @ToString
 public class InputData<T extends DataSetData> {
+    
     /**
      * Data set data.
      */
     private T data;
+    
 }
