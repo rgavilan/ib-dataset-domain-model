@@ -1,5 +1,6 @@
 package es.um.asio.domain;
 
+import java.io.Serializable;
 import javax.persistence.Column;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
@@ -23,9 +24,11 @@ import lombok.ToString;
 @Setter
 @ToString(includeFieldNames = true)
 @EqualsAndHashCode(onlyExplicitlyIncluded = true, callSuper = false)
-public abstract class DataSetDataBase implements DataSetData {
+public abstract class DataSetDataBase implements DataSetData, Serializable {
 
-    /**
+	private static final long serialVersionUID = 8037539991352137993L;
+
+	/**
      * The id.
      */
     @Id
