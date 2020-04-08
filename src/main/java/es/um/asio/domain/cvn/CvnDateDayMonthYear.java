@@ -1,6 +1,6 @@
 package es.um.asio.domain.cvn;
 
-import javax.xml.datatype.XMLGregorianCalendar;
+import java.util.Date;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -20,5 +20,5 @@ public class CvnDateDayMonthYear extends CvnBean
     /**
      * The value.
      */
-    private XMLGregorianCalendar value;  
+    private Date value;  
 }
