@@ -12,7 +12,7 @@
 
 	<groupId>es.um.asio</groupId>
 	<artifactId>dataset-domain-model</artifactId>
-	<version>1.0-SNAPSHOT</version>
+	<version>1.0-SEMANTMURC-114-SNAPSHOT</version>
 	<name>UM - ASIO - dataset-domain-model</name>
 	<description>UM - ASIO - dataset-domain-model</description>
 
@@ -22,9 +22,19 @@
 
 	<properties>
 		<java.version>11</java.version>
+		<asio-abstractions.version>1.0-SNAPSHOT</asio-abstractions.version>
 	</properties>
 
 	<dependencies>
+	
+		<!-- UM ASIO - dependencies -->
+		<dependency>
+			<groupId>es.um.asio</groupId>
+			<artifactId>asio-abstractions</artifactId>
+			<version>${asio-abstractions.version}</version>
+		</dependency>
+	
+	
 		<dependency>
 			<groupId>org.hibernate</groupId>
 			<artifactId>hibernate-core</artifactId>

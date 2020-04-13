@@ -2,6 +2,8 @@ package es.um.asio.domain;
 
 import com.fasterxml.jackson.annotation.JsonTypeInfo;
 
+import es.um.asio.abstractions.domain.Operation;
+
 /**
  * Interface representing generic data set data.
  */
@@ -21,4 +23,18 @@ public interface DataSetData {
      * @param id the new version
      */
     void setVersion(long id);
+    
+    /**
+     * Gets the entity operation
+     *
+     * @return the operation
+     */
+    Operation getOperation();          
+    
+    /**
+     *  Sets the entity operation
+     *
+     * @param operation the new operation
+     */
+    void setOperation(Operation operation);
 }

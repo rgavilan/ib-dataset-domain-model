@@ -2,12 +2,14 @@ package es.um.asio.domain;
 
 import java.io.Serializable;
 import javax.persistence.Column;
+import javax.persistence.Enumerated;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.MappedSuperclass;
 
 import org.hibernate.annotations.GenericGenerator;
 
+import es.um.asio.abstractions.domain.Operation;
 import es.um.asio.domain.util.JpaConstants;
 import lombok.AccessLevel;
 import lombok.EqualsAndHashCode;
@@ -42,6 +44,12 @@ public abstract class DataSetDataBase implements DataSetData, Serializable {
      * The version of DataSetData.
      */
     private long version;
+    
+    /**
+     * The entity operation.
+     */
+    @Enumerated    
+    private Operation operation = Operation.INSERT;
 
     /**
      * Column name constants.
