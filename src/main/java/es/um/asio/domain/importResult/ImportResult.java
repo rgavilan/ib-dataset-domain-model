@@ -5,7 +5,6 @@ import javax.persistence.Entity;
 import javax.persistence.OneToOne;
 
 import es.um.asio.domain.DataSetDataBase;
-import es.um.asio.domain.exitStatus.ExitStatus;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

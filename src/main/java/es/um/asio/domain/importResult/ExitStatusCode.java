@@ -1,4 +1,4 @@
-package es.um.asio.domain.exitStatus;
+package es.um.asio.domain.importResult;
 
 /**
  * The Enum that represents the Exit Status

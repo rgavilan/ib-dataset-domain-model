@@ -44,13 +44,7 @@ public abstract class DataSetDataBase implements DataSetData, Serializable {
      * The version of DataSetData.
      */
     private long version;
-    
-    /**
-     * The entity operation.
-     */
-    @Enumerated    
-    private Operation operation = Operation.INSERT;
-
+     
     /**
      * Column name constants.
      */

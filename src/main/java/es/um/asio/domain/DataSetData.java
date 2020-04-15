@@ -23,18 +23,4 @@ public interface DataSetData {
      * @param id the new version
      */
     void setVersion(long id);
-    
-    /**
-     * Gets the entity operation
-     *
-     * @return the operation
-     */
-    Operation getOperation();          
-    
-    /**
-     *  Sets the entity operation
-     *
-     * @param operation the new operation
-     */
-    void setOperation(Operation operation);
 }

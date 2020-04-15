@@ -2,7 +2,7 @@ package es.um.asio.domain.ayudas;
 
 import javax.persistence.Entity;
 
-import es.um.asio.domain.DataSetDataBase;
+import es.um.asio.domain.OperationableDataSetDataBase;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.Setter;
@@ -16,7 +16,7 @@ import lombok.ToString;
 @Setter
 @ToString(includeFieldNames = true)
 @EqualsAndHashCode(callSuper = true)
-public class TipoGastoUnidadAyuda extends DataSetDataBase {  
+public class TipoGastoUnidadAyuda extends OperationableDataSetDataBase {  
     
     /**
      * Mapping of field IDUNIDADAYUDA.
