@@ -1,9 +1,8 @@
 package es.um.asio.domain.cvn;
 
-import javax.persistence.Entity;
 import javax.persistence.MappedSuperclass;
 
-import es.um.asio.domain.DataSetDataBase;
+import es.um.asio.domain.OperationableDataSetDataBase;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
@@ -15,7 +14,7 @@ import lombok.ToString;
 @Getter
 @Setter
 @ToString(includeFieldNames = true)
-public abstract class CvnBean extends DataSetDataBase {
+public abstract class CvnBean extends OperationableDataSetDataBase {
 
     /**
      * The code.
