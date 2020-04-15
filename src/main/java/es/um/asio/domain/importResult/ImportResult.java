@@ -1,10 +1,11 @@
 package es.um.asio.domain.importResult;
 
-import javax.persistence.CascadeType;
-import javax.persistence.Entity;
-import javax.persistence.OneToOne;
+import java.util.Date;
 
+import javax.persistence.Entity;
 import es.um.asio.domain.DataSetDataBase;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -19,28 +20,28 @@ import lombok.ToString;
 @Setter
 @ToString(includeFieldNames = true)
 @EqualsAndHashCode(callSuper = true)
+@Builder
 @NoArgsConstructor
-public class ImportResult extends DataSetDataBase {    
+@AllArgsConstructor
+public class ImportResult extends DataSetDataBase {
     
     /**
-     * Instantiates a new {@link ImportResult}.
-     *
-     * @param exitStatus the exit status
+     * The start date of import.
      */
-    public ImportResult(ExitStatus exitStatus) {
-        this.exitStatus = exitStatus;
-        this.setVersion(exitStatus.getVersion());
-        this.date = System.currentTimeMillis();
-    }
+    private Date startTime;
     
     /**
-     * The date of result.
+     * The end date of import.
      */
-    private Long date;
+    private Date endTime;
     
     /**
-     * The exit status.
+     * The exit status code.
+     */    
+    private ExitStatusCode exitStatusCode;
+    
+    /**
+     * The job type.
      */
-    @OneToOne(cascade = CascadeType.ALL)
-    private ExitStatus exitStatus;
+    private JobType jobType;
 }
