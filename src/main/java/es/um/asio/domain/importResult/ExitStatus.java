@@ -1,4 +1,4 @@
-package es.um.asio.domain.exitStatus;
+package es.um.asio.domain.importResult;
 
 import javax.persistence.Entity;
 

@@ -2,7 +2,7 @@ package es.um.asio.domain.proyectos;
 
 import javax.persistence.Entity;
 
-import es.um.asio.domain.DataSetDataBase;
+import es.um.asio.domain.OperationableDataSetDataBase;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.Setter;
@@ -16,7 +16,7 @@ import lombok.ToString;
 @Setter
 @ToString(includeFieldNames = true)
 @EqualsAndHashCode(callSuper = true)
-public class FacturaEmitirProyecto extends DataSetDataBase {  
+public class FacturaEmitirProyecto extends OperationableDataSetDataBase {  
     
     /**
      * Mapping of field IDPROYECTO.

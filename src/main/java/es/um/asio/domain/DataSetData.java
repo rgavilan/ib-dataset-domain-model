@@ -2,6 +2,8 @@ package es.um.asio.domain;
 
 import com.fasterxml.jackson.annotation.JsonTypeInfo;
 
+import es.um.asio.abstractions.domain.Operation;
+
 /**
  * Interface representing generic data set data.
  */
