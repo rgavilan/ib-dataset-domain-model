@@ -3,6 +3,9 @@ package es.um.asio.domain.importResult;
 import java.util.Date;
 
 import javax.persistence.Entity;
+
+import es.um.asio.abstractions.domain.ExitStatusCode;
+import es.um.asio.abstractions.domain.JobType;
 import es.um.asio.domain.DataSetDataBase;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
