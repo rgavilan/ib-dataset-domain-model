@@ -22,7 +22,7 @@
 
 	<properties>
 		<java.version>11</java.version>
-		<asio-abstractions.version>1.0-SNAPSHOT</asio-abstractions.version>
+		<asio-abstractions.version>1.0-SEMANTMURC-115-SNAPSHOT</asio-abstractions.version>
 	</properties>
 
 	<dependencies>
