@@ -1,6 +1,7 @@
 package es.um.asio.domain.cvn;
 
 import javax.persistence.Entity;
+import javax.persistence.Lob;
 
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
@@ -27,5 +28,6 @@ public class CvnTitleBean extends CvnBean
     /**
      * The name.
      */
+    @Lob
     private String name;
 }
