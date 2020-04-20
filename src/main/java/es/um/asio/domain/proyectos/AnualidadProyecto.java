@@ -24,7 +24,17 @@ public class AnualidadProyecto extends OperationableDataSetDataBase {
     private long idProyecto;
     
     /**
-     * Mapping of field NUMEROANUALIDAD.
+     * Mapping of field NOMBRE.
      */
-    private long numeroAnualidad;
+    private String nombre;
+    
+    /**
+     * Mapping of field PROYECTOFINALISTA.
+     */
+    private String proyectoFinalista;
+    
+    /**
+     * Mapping of field LIMITATIVO.
+     */
+    private String limitativo;
 }
