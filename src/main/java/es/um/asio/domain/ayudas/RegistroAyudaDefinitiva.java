@@ -1,6 +1,7 @@
 package es.um.asio.domain.ayudas;
 
 import javax.persistence.Entity;
+import javax.persistence.Lob;
 
 import es.um.asio.domain.OperationableDataSetDataBase;
 import lombok.EqualsAndHashCode;
@@ -61,6 +62,7 @@ public class RegistroAyudaDefinitiva extends OperationableDataSetDataBase {
     /**
      * Mapping of field DESCRIPCIONUNIDADAYUDA.
      */
+    @Lob
     private String descripcionUnidadAyuda;
     
     /**
@@ -81,6 +83,7 @@ public class RegistroAyudaDefinitiva extends OperationableDataSetDataBase {
     /**
      * Mapping of field OBSERVACIONES.
      */
+    @Lob
     private String observaciones;
     
     /**

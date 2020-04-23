@@ -1,6 +1,7 @@
 package es.um.asio.domain.recursosHumanos;
 
 import javax.persistence.Entity;
+import javax.persistence.Lob;
 
 import es.um.asio.domain.OperationableDataSetDataBase;
 import lombok.EqualsAndHashCode;
@@ -111,15 +112,18 @@ public class SolicitudRecursosHumanos extends OperationableDataSetDataBase {
     /**
      * Mapping of field OBJETIVOS.
      */
+    @Lob
     private String objetivos;
     
     /**
      * Mapping of field METODOLOGIA.
      */
+    @Lob
     private String metodologia;
     
     /**
      * Mapping of field CRONOGRAMA.
      */
+    @Lob
     private String cronograma;
 }

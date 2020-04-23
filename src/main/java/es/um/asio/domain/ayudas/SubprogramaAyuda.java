@@ -1,6 +1,7 @@
 package es.um.asio.domain.ayudas;
 
 import javax.persistence.Entity;
+import javax.persistence.Lob;
 
 import es.um.asio.domain.OperationableDataSetDataBase;
 import lombok.EqualsAndHashCode;
@@ -36,6 +37,7 @@ public class SubprogramaAyuda extends OperationableDataSetDataBase {
     /**
      * Mapping of field RESUMEN.
      */
+    @Lob
     private String resumen;
     
     /**

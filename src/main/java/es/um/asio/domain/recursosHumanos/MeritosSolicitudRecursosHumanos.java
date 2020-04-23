@@ -1,6 +1,7 @@
 package es.um.asio.domain.recursosHumanos;
 
 import javax.persistence.Entity;
+import javax.persistence.Lob;
 
 import es.um.asio.domain.OperationableDataSetDataBase;
 import lombok.EqualsAndHashCode;
@@ -26,6 +27,7 @@ public class MeritosSolicitudRecursosHumanos extends OperationableDataSetDataBas
     /**
      * Mapping of field TITULO.
      */
+    @Lob
     private String titulo;
     
     /**

@@ -1,6 +1,7 @@
 package es.um.asio.domain.paginas;
 
 import javax.persistence.Entity;
+import javax.persistence.Lob;
 
 import es.um.asio.domain.OperationableDataSetDataBase;
 import lombok.EqualsAndHashCode;
@@ -56,6 +57,7 @@ public class Articulo extends OperationableDataSetDataBase {
     /**
      * Mapping of field NOMBRE_REVISTA.
      */
+    @Lob
     private String nombreRevista;
     
     /**
@@ -66,6 +68,7 @@ public class Articulo extends OperationableDataSetDataBase {
     /**
      * Mapping of field URL_REVISTA.
      */
+    @Lob
     private String urlRevista;
     
     /**

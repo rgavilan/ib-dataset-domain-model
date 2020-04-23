@@ -1,6 +1,7 @@
 package es.um.asio.domain.paginas;
 
 import javax.persistence.Entity;
+import javax.persistence.Lob;
 
 import es.um.asio.domain.OperationableDataSetDataBase;
 import lombok.EqualsAndHashCode;
@@ -81,6 +82,7 @@ public class EstanciaBreve extends OperationableDataSetDataBase {
     /**
      * Mapping of field ESTA_OBJETO_ESTANCIA.
      */
+    @Lob
     private String estaObjetoEstancia;
     
     /**
