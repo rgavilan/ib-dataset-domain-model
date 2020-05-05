@@ -1,5 +1,6 @@
 package es.um.asio.domain;
 
+import javax.persistence.EnumType;
 import javax.persistence.Enumerated;
 import javax.persistence.MappedSuperclass;
 
@@ -22,7 +23,7 @@ public class OperationableDataSetDataBase extends DataSetDataBase {
     /**
      * The entity operation.
      */
-    @Enumerated    
+    @Enumerated(EnumType.STRING)  
     private Operation operation = Operation.INSERT;
     
 }
