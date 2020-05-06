@@ -24,19 +24,19 @@ public class TesisDirigidaUMUNoRegistrada extends OperationableDataSetDataBase {
     private long tesiCodigo;
     
     /**
-     * Mapping of field TESI_DNIAUTOR.
+     * Mapping of field IDPERSONAUTOR.
      */
-    private String tesiDniAutor;
+    private Long idPersonAutor;
     
     /**
      * Mapping of field TESI_TITULOTESIS.
      */
-    private String tesiTituloTesis;
+    private String tesiTituloTesis;    
     
     /**
      * Mapping of field TESI_PREMIO.
      */
-    private String tesiPremio;
+    private String tesiPremio;    
     
     /**
      * Mapping of field TESI_MENCIONEURO.
@@ -47,7 +47,7 @@ public class TesisDirigidaUMUNoRegistrada extends OperationableDataSetDataBase {
      * Mapping of field TESI_FECHALECTURA.
      */
     private String tesiFechaLectura;
-    
+        
     /**
      * Mapping of field TESI_UNIV_NOMBRE.
      */

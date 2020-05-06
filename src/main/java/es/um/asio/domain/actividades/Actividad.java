@@ -24,6 +24,11 @@ public class Actividad extends OperationableDataSetDataBase {
     private long idActividad;
     
     /**
+     * Mapping of field IDGRUPOACTIVIDADES.
+     */
+    private long idGrupoActividades;
+    
+    /**
      * Mapping of field CODTIPOACTIVIDAD.
      */
     private String codTipoActividad;  

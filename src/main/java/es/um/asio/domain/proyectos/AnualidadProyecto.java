@@ -21,20 +21,46 @@ public class AnualidadProyecto extends OperationableDataSetDataBase {
     /**
      * Mapping of field IDPROYECTO.
      */
-    private long idProyecto;
+    private long idProyecto;    
     
     /**
-     * Mapping of field NOMBRE.
+     * Mapping of field NUMEROANUALIDAD.
      */
-    private String nombre;
+    private long numeroAnualidad;
     
     /**
-     * Mapping of field PROYECTOFINALISTA.
+     * Mapping of field FECHAINICIOANUALIDAD.
      */
-    private String proyectoFinalista;
+    private String fechaInicioAnualidad;
     
     /**
-     * Mapping of field LIMITATIVO.
+     * Mapping of field FECHAFINANUALIDAD.
      */
-    private String limitativo;
+    private String fechaFinAnualidad;
+    
+    /**
+     * Mapping of field CODTIPOMONEDA.
+     */
+    private String codTipoMoneda;
+    
+    /**
+     * Mapping of field IMPORTEANUALIDAD.
+     */
+    private Float importeAnualidad;    
+    
+    /**
+     * Mapping of field FECHAFINFACTURACION.
+     */
+    private Float fechaFinFacturacion;
+    
+    /**
+     * Mapping of field CODTIPOMOTIVOCAMBIOFECHA.
+     */
+    private String codTipoMotivoCambioFecha;
+    
+    /**
+     * Mapping of field MOTIVOCAMBIOFECHA.
+     */
+    private String motivoCambioFecha;
+    
 }

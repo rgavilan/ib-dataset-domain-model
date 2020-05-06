@@ -30,9 +30,9 @@ public class EstanciaBreve extends OperationableDataSetDataBase {
     private long estaNumero;
     
     /**
-     * Mapping of field IDPERSONA.
+     * Mapping of field IDPERSONABECARIO.
      */
-    private Long idPersona;
+    private Long idPersonaBecario;
     
     /**
      * Mapping of field SOLB_TITUPROYECTO.
@@ -58,11 +58,11 @@ public class EstanciaBreve extends OperationableDataSetDataBase {
      * Mapping of field ESTA_CENTRO.
      */
     private String estaCentro;
-    
+        
     /**
-     * Mapping of field IDPERSONA_1.
+     * Mapping of field IDPERSONARESPONSABLE.
      */
-    private Long idPersona1;
+    private Long idPersonaResponsable;
     
     /**
      * Mapping of field DURACION_PREVISTA.
