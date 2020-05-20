@@ -17,7 +17,7 @@
 	<description>UM - ASIO - dataset-domain-model</description>
 
 	<scm>
-		<url>https://git.izertis.com/universidaddemurcia/semantmurc/dataset-domain-model</url>
+		<url>scm:git:https://github.com/HerculesCRUE/ib-dataset-domain-model.git</url>
 	</scm>
 
 	<properties>
