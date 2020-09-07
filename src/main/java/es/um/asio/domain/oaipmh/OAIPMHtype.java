@@ -10,7 +10,7 @@ import lombok.ToString;
 
 
 /**
- * The Class CvnRootBean.
+ * The Class OAIPMHtype.
  */
 @Entity
 @Getter
