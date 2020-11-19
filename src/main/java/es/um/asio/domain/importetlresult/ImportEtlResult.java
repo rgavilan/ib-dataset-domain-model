@@ -1,4 +1,4 @@
-package es.um.asio.domain.ImportEtlResult;
+package es.um.asio.domain.importetlresult;
 
 import java.util.Date;
 
