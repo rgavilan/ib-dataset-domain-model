@@ -7,8 +7,6 @@ import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
 
-
-
 /**
  * The Class CvnExternalPKBean.
  */
@@ -17,21 +15,20 @@ import lombok.ToString;
 @Setter
 @ToString(includeFieldNames = true)
 @EqualsAndHashCode(callSuper = true)
-public class CvnExternalPKBean extends CvnBean
-{
-    
-    /**
-     * The type.
-     */
-    private String type;
-    
-    /**
-     * The value.
-     */
-    private String value;
-    
-    /**
-     * The others.
-     */
-    private String others;
+public class CvnExternalPKBean extends CvnBean {
+
+	/**
+	 * The type.
+	 */
+	public String type;
+
+	/**
+	 * The value.
+	 */
+	public String value;
+
+	/**
+	 * The others.
+	 */
+	public String others;
 }

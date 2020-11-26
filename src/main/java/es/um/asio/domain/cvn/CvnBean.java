@@ -16,8 +16,8 @@ import lombok.ToString;
 @ToString(includeFieldNames = true)
 public abstract class CvnBean extends OperationableDataSetDataBase {
 
-    /**
-     * The code.
-     */
-    private String code;
+	/**
+	 * The code.
+	 */
+	public String code;
 }

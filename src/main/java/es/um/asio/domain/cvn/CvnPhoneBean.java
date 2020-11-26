@@ -7,8 +7,6 @@ import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
 
-
-
 /**
  * The Class CvnPhoneBean.
  */
@@ -17,26 +15,25 @@ import lombok.ToString;
 @Setter
 @ToString(includeFieldNames = true)
 @EqualsAndHashCode(callSuper = true)
-public class CvnPhoneBean extends CvnBean
-{
-    
-    /**
-     * The extension.
-     */
-    private String extension;
-    
-    /**
-     * The international code.
-     */
-    private String internationalCode;
-    
-    /**
-     * The number.
-     */
-    private String number;
-    
-    /**
-     * The type.
-     */
-    private String type;
+public class CvnPhoneBean extends CvnBean {
+
+	/**
+	 * The extension.
+	 */
+	public String extension;
+
+	/**
+	 * The international code.
+	 */
+	public String internationalCode;
+
+	/**
+	 * The number.
+	 */
+	public String number;
+
+	/**
+	 * The type.
+	 */
+	public String type;
 }

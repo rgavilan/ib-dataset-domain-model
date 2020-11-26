@@ -8,7 +8,6 @@ import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
 
-
 /**
  * The Class CvnTitleBean.
  */
@@ -17,17 +16,16 @@ import lombok.ToString;
 @Setter
 @ToString(includeFieldNames = true)
 @EqualsAndHashCode(callSuper = true)
-public class CvnTitleBean extends CvnBean
-{
-    
-    /**
-     * The identification.
-     */
-    private String identification;
-    
-    /**
-     * The name.
-     */
-    @Lob
-    private String name;
+public class CvnTitleBean extends CvnBean {
+
+	/**
+	 * The identification.
+	 */
+	public String identification;
+
+	/**
+	 * The name.
+	 */
+	@Lob
+	public String name;
 }

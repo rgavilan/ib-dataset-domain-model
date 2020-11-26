@@ -12,7 +12,6 @@ import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
 
-
 /**
  * The Class CvnRootBean.
  */
@@ -23,10 +22,10 @@ import lombok.ToString;
 @EqualsAndHashCode(callSuper = true)
 public class CvnRootBean extends OperationableDataSetDataBase {
 
-    /**
-     * The cvn item bean.
-     */
-    @OneToMany(cascade = CascadeType.ALL)
-    private List<CvnItemBean> cvnItemBean;
+	/**
+	 * The cvn item bean.
+	 */
+	@OneToMany(cascade = CascadeType.ALL)
+	public List<CvnItemBean> cvnItemBean;
 
 }

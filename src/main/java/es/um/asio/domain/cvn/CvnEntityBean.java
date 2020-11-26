@@ -8,8 +8,6 @@ import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
 
-
-
 /**
  * The Class CvnEntityBean.
  */
@@ -18,17 +16,16 @@ import lombok.ToString;
 @Setter
 @ToString(includeFieldNames = true)
 @EqualsAndHashCode(callSuper = true)
-public class CvnEntityBean extends CvnBean
-{
-    
-    /**
-     * The id.
-     */
-    private String id;
-    
-    /**
-     * The name.
-     */
-    @Lob
-    private String name;
+public class CvnEntityBean extends CvnBean {
+
+	/**
+	 * The id.
+	 */
+	public String id;
+
+	/**
+	 * The name.
+	 */
+	@Lob
+	public String name;
 }
