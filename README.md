@@ -15,6 +15,10 @@
 
 # ASIO - Modelo de dominio de Data Set de Murcia
 
+|     | Master |
+| --- | ------ |
+| Quality Gate | [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=HerculesCRUE_ib-dataset-domain-model&metric=alert_status)](https://sonarcloud.io/dashboard?id=HerculesCRUE_ib-dataset-domain-model) |
+
 Modelo de dominio de Data Set de Murcia para el proyecto Backend SGI (ASIO). 
 
 ## OnBoarding
