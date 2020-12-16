@@ -24,6 +24,11 @@ public class Persona extends OperationableDataSetDataBase {
     private long idPersona;
     
     /**
+     * Mapping of field NOMBRE.
+     */
+    private String nombre;
+    
+    /**
      * Mapping of field PERS_CENT_CODIGO.
      */
     private String persCentCodigo;

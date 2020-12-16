@@ -9,8 +9,6 @@ import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
 
-
-
 /**
  * The Class CvnDateMonthYear.
  */
@@ -19,11 +17,10 @@ import lombok.ToString;
 @Setter
 @ToString(includeFieldNames = true)
 @EqualsAndHashCode(callSuper = true)
-public class CvnDateMonthYear extends CvnBean
-{
-    
-    /**
-     * The value.
-     */
-    private Date value;
+public class CvnDateMonthYear extends CvnBean {
+
+	/**
+	 * The value.
+	 */
+	public Date value;
 }

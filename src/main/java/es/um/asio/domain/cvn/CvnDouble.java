@@ -7,8 +7,6 @@ import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
 
-
-
 /**
  * The Class CvnDouble.
  */
@@ -17,11 +15,10 @@ import lombok.ToString;
 @Setter
 @ToString(includeFieldNames = true)
 @EqualsAndHashCode(callSuper = true)
-public class CvnDouble extends CvnBean
-{
+public class CvnDouble extends CvnBean {
 
-    /**
-     * The value.
-     */
-    private Double value;
+	/**
+	 * The value.
+	 */
+	public Double value;
 }

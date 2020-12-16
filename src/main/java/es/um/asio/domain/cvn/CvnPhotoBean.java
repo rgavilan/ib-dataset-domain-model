@@ -8,7 +8,6 @@ import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
 
-
 /**
  * The Class CvnPhotoBean.
  */
@@ -17,17 +16,16 @@ import lombok.ToString;
 @Setter
 @ToString(includeFieldNames = true)
 @EqualsAndHashCode(callSuper = true)
-public class CvnPhotoBean extends CvnBean
-{
-    
-    /**
-     * The bytes in base 64.
-     */
-    @Lob
-    private String bytesInBase64;
-    
-    /**
-     * The mime type.
-     */
-    private String mimeType;
+public class CvnPhotoBean extends CvnBean {
+
+	/**
+	 * The bytes in base 64.
+	 */
+	@Lob
+	public String bytesInBase64;
+
+	/**
+	 * The mime type.
+	 */
+	public String mimeType;
 }

@@ -10,7 +10,6 @@ import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
 
-
 /**
  * The Class CvnAuthorBean.
  */
@@ -19,29 +18,28 @@ import lombok.ToString;
 @Setter
 @ToString(includeFieldNames = true)
 @EqualsAndHashCode(callSuper = true)
-public class CvnAuthorBean extends CvnBean
-{
-    
-    /**
-     * The cvn family name bean.
-     */   
-    @OneToOne(cascade = CascadeType.ALL)
-    private CvnFamilyNameBean cvnFamilyNameBean;
-    
-    /**
-     * The given name.
-     */
-    @Lob
-    private String givenName;
-    
-    /**
-     * The signature.
-     */
-    @Lob
-    private String signature;
-    
-    /**
-     * The signature order.
-     */
-    private Integer signatureOrder;
+public class CvnAuthorBean extends CvnBean {
+
+	/**
+	 * The cvn family name bean.
+	 */
+	@OneToOne(cascade = CascadeType.ALL)
+	public CvnFamilyNameBean cvnFamilyNameBean;
+
+	/**
+	 * The given name.
+	 */
+	@Lob
+	public String givenName;
+
+	/**
+	 * The signature.
+	 */
+	@Lob
+	public String signature;
+
+	/**
+	 * The signature order.
+	 */
+	public Integer signatureOrder;
 }
