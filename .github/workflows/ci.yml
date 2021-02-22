@@ -29,6 +29,9 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-maven-
       - name: Build with Maven
+        env:
+          GITHUB_USER: ${{ secrets.PERSONAL_GITHUB_USER }}
+          GITHUB_TOKEN: ${{ secrets.PERSONAL_GITHUB_TOKEN }}
         run: mvn -B -U verify
       - name: Analyze
         env:
