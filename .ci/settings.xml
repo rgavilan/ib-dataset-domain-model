@@ -18,7 +18,7 @@
           <snapshots><enabled>true</enabled></snapshots>
         </repository>
         <repository>
-          <id>github</id>
+          <id>github-asio-abstractions</id>
           <name>GitHub asio-abstractions Apache Maven Packages</name>
           <url>https://maven.pkg.github.com/rgavilan/ib-asio-abstractions</url>
         </repository>
@@ -28,7 +28,7 @@
 
   <servers>
     <server>
-      <id>github</id>
+      <id>github-asio-abstractions</id>
       <username>${env.GITHUB_USER}</username>
       <password>${env.GITHUB_TOKEN}</password>
     </server>
